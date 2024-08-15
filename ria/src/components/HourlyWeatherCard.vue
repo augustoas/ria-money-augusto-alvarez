@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { defineProps } from "vue";
 import { formatTemperature, formatHour } from "@/utils/utils";
 import type { HourlyWeather } from "../types/types";
 
